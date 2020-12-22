@@ -1,0 +1,2 @@
+module CheckStressHelper
+end
