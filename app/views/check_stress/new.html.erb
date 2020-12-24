@@ -1,11 +1,22 @@
 <p> <id="notice"><%= notice %></p>
-<h1>Welcome to our website</h1>
-<h2>This website is a project made by students of Thapar Institute of Engineering and Technology</h2>
-<h2>You can use it to check your stress level</h2>
-<p>To assess your mental stress click
-  <%= link_to "here", mental_path %>
-</p>
 
-<p>To assess your physiological stress click
-  <%= link_to "here", phyisological_path %>
-</p>
+<body style="background-color:#808080;">
+  <h1 style="color:#001f3f; font-style:italic; font-family:georgia,garamond,serif; padding: 25px 50px 25px 100px;" >
+    Welcome to our website
+  </h1>
+  <h2 style="color:#001f3f; font-style:italic; font-family: Times New Roman,serif; padding: 0px 50px 0px 100px;" >
+    This website is a project made by students of Thapar Institute of Engineering and Technology
+  </h2>
+  <h2 style="color:#001f3f; font-style:italic; font-family: Times New Roman,serif; padding: 0px 50px 25px 100px;" >
+    You can use it to check your stress level
+  </h2>
+  <p style = "font-family:georgia,garamond,serif; font-size:16px; font-style:italic; color:#001f3f; padding: 0px 50px 0px 100px;">
+    To assess your mental stress click
+    <%= link_to "here", mental_path %>
+  </p>
+
+  <p style = "font-family:georgia,garamond,serif; font-size:16px; font-style:italic; color:#001f3f; padding: 0px 50px 0px 100px;" >
+    To assess your physiological stress click
+    <%= link_to "here", phyisological_path %>
+  </p>
+</body>
